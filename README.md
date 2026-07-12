@@ -23,7 +23,7 @@ Kubernetes raises the delay between each attempt until it reaches a compiled-in 
 
 ### CrashLoopBackOff
 
-video link:
+Video Link:
 https://youtu.be/aEPIlQBWBGQ?si=wioS9HpVvYgjf99I
 
 When you see "CrashLoopBackOff," it means that kubelet is trying to run the container, but it keeps failing and crashing. After crashing, Kubernetes tries to restart the container automatically, but if the container keeps failing repeatedly, you end up in a loop of crashes and restarts, thus the term "CrashLoopBackOff." 
@@ -33,6 +33,9 @@ This situation indicates that something is wrong with the application or the con
 ## Day-03
 
 ### Pods not schedulable
+
+Video Link:
+https://youtu.be/O61HDmGUBJM?si=npWXZMa5xb-qdcnv
 
 In Kubernetes, the scheduler is responsible for assigning pods to nodes in the cluster based on various criteria. Sometimes, you might encounter situations where pods are not being scheduled as expected. This can happen due to factors such as node constraints, pod requirements, or cluster configurations.
 
