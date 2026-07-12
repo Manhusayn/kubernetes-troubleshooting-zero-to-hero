@@ -43,3 +43,11 @@ In Kubernetes, the scheduler is responsible for assigning pods to nodes in the c
 2. Node Affinity
 3. Taints
 4. Tolerations
+
+
+## Day-04
+
+### Topic name
+
+Video Link:
+https://youtu.be/uBhjymTV0ro?si=ZhWcx80ahSDTXLAf
