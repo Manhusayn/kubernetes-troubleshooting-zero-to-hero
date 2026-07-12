@@ -23,6 +23,9 @@ Kubernetes raises the delay between each attempt until it reaches a compiled-in 
 
 ### CrashLoopBackOff
 
+video link:
+https://youtu.be/aEPIlQBWBGQ?si=wioS9HpVvYgjf99I
+
 When you see "CrashLoopBackOff," it means that kubelet is trying to run the container, but it keeps failing and crashing. After crashing, Kubernetes tries to restart the container automatically, but if the container keeps failing repeatedly, you end up in a loop of crashes and restarts, thus the term "CrashLoopBackOff." 
 
 This situation indicates that something is wrong with the application or the configuration that needs to be fixed.
